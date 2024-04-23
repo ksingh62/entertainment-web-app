@@ -74,11 +74,15 @@ const proudOfThisFunc = () => {
 };
 ```
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
+If you want more help with writing markdown, we'd recommend checking out
+[The Markdown Guide](https://www.markdownguide.org/) to learn more.
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+Use this section to outline areas that
+you want to continue focusing on in future projects. These could be concepts
+you're still not completely comfortable with or techniques you found useful that
+you want to refine and perfect.
 
 ## Todo
 
@@ -87,6 +91,52 @@ Use this section to outline areas that you want to continue focusing on in futur
 3. TMDB API Integration
 4. React Router Loaders Refactor
 5. useFetch
+6. Pagination
+7. TMDB Documentation
+8. What different paths your application will use
+9. Create environment variables to store API keys. And sanitize HTML.
+10. Learn useReducer and custom hooks.
+11. Loading animation when loading a new page.
+
+12. Debouncing State
+13. Keyboard Navigation autocomplete
+14. Suspense, Error Boundary
+15. Dropdown useReducer
+
+## Learn Order
+
+1. Custom Hooks and useFetch and use even more custom hooks if needed.
+2. useReducer
+3. Pagination
+4. TMDB API paths
+5. How to integrate TMDB API paths with the React Router
+
+## Paths
+
+1. /
+2. /movies
+3. /tv
+4. /movies/ || /movies/discover/ (useSearchParams)
+5. /tv || /tv/discover/ (useSearchParams)
+6. /tv/genre/
+7. /movies/genre
+8. movies/:id
+9. tv/:id
+10. movies/trending (useSearchParams for pagination)
+11. movies/popular
+12. movies/nowplaying
+13. movies/upcoming
+14. movies/toprated
+15. tv/trending
+16. tv/popular
+17. tv/airing
+18. tv/onair
+19. tv/top
+
+All paths from 10 to 19 will show a same component.
+
+Adding the case of when page is not given in search parameters default to 1.
+Add the same for discover when the genre is not given.
 
 ## Author
 
