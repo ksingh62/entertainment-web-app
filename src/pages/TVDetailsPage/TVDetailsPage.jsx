@@ -102,11 +102,11 @@ export default function TVDetailsPage() {
           <div className="tv-button-container">
             {tvData.homepage && (
               <button className="website-button">
-                <a href={tvData.homepage}>Website</a>
+                <a target="_blank" href={tvData.homepage}>Website</a>
               </button>
             )}
             <button className="website-button">
-              <a href={`https://www.imdb.com/title/${tvData.imdb_id}`}>IMDB</a>
+              <a target="_blank" href={`https://www.imdb.com/title/${tvData.imdb_id}`}>IMDB</a>
             </button>
           </div>
         </div>
